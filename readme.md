@@ -14,4 +14,6 @@ Node.js est une plateforme logicielle libre en JavaScript, orientée vers les ap
 ---
 >Cet exercice consiste à remplacer les contenus statiques de la page avec des contenus dynamiques. Pour cela il faudra créer un tableau d'objet js à injecter dans la structure HTML existantee.
 
+> [Publication](https://giusmili.github.io/cda-article-js/)
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
