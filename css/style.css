@@ -30,12 +30,21 @@ img{
 /* theme css */
 header{
     background: #2980b9;
+    position: relative;
  }
  header h1{
     text-align: center;
-    line-height: 6.5rem;
+    line-height: 8rem;
     color: #fff;
  }
+ header .logo{
+
+        position: absolute;
+        top: .5rem;
+        left: 33%;
+        z-index: 1;
+      }
+ 
 p,ul{
     max-width: 80rem;
     line-height: 2.6rem;
@@ -115,4 +124,17 @@ section address{
 footer p{
     border: 0;
     text-align: center;
+}
+
+/* responsive */
+@media screen and (max-width: 98.0rem){
+    header .logo{
+        width: 9rem;
+        height: 9rem;
+        margin: 0 auto;
+        padding: .5rem;
+        position: static;
+        display: block;
+       
+      }
 }
